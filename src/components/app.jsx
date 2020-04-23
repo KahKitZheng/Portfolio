@@ -1,10 +1,10 @@
 import React from "react";
-import Navigation from "./navigation";
+import Header from "./header";
 
 const App = () => {
   return (
     <div className="App" id="outer-container">
-      <Navigation />
+      <Header />
     </div>
   );
 };

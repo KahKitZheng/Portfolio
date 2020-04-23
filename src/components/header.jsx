@@ -1,20 +1,17 @@
 import React, { useState, useRef } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 import Home from "../pages/home";
-import Burger from "./burger";
-import Menu from "./menu";
-import { useOnClickOutside } from "./hooks";
+import { Burger, Menu, useOnClickOutside } from "./navigation";
 
-const Navigation = () => {
+const Header = () => {
   const [open, setOpen] = useState(false);
-
   const node = useRef();
   useOnClickOutside(node, () => setOpen(false));
 
   return (
     <React.Fragment>
-      <Router>
+      <BrowserRouter>
         <h2 className="logo">KKZ</h2>
 
         <div ref={node}>
@@ -27,9 +24,9 @@ const Navigation = () => {
             <Home />
           </Route>
         </Switch>
-      </Router>
+      </BrowserRouter>
     </React.Fragment>
   );
 };
 
-export default Navigation;
+export default Header;
