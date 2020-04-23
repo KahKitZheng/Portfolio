@@ -12,18 +12,22 @@ const Header = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
-        <h2 className="logo">KKZ</h2>
+        <div className="header">
+          <h2 className="header__logo">KKZ</h2>
 
-        <div ref={node}>
-          <Burger open={open} setOpen={setOpen} />
-          <Menu open={open} setOpen={setOpen} />
+          <div className="header__navigation" ref={node}>
+            <Burger open={open} setOpen={setOpen} />
+            <Menu open={open} setOpen={setOpen} />
+          </div>
         </div>
 
-        <Switch>
-          <Route exact path={["/", "#projects", "#skills", "#contact"]}>
-            <Home />
-          </Route>
-        </Switch>
+        <div className={"main" + (open ? " opened" : " closed")}>
+          <Switch>
+            <Route exact path={["/", "#projects", "#skills", "#contact"]}>
+              <Home />
+            </Route>
+          </Switch>
+        </div>
       </BrowserRouter>
     </React.Fragment>
   );
