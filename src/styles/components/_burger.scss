@@ -17,6 +17,10 @@
     outline: none;
   }
 
+  &::-moz-focus-inner {
+    border: 0;
+  }
+
   &__layer {
     width: 2rem;
     height: 0.25rem;
@@ -57,7 +61,7 @@
   }
 }
 
-@media (min-width: $md) {
+@media (min-width: $sm) {
   .burger {
     display: none;
   }
