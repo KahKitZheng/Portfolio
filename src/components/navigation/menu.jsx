@@ -1,4 +1,5 @@
 import React from "react";
+import * as ROUTES from "../../constants/routes";
 import { HashLink as Link } from "react-router-hash-link";
 import { bool } from "prop-types";
 
@@ -6,19 +7,23 @@ const Menu = ({ open, setOpen }) => {
   return (
     <div className={"menu" + (open ? " open" : "")} open={open}>
       <Link
-        to="/#projects"
-        onClick={() => setOpen(!open)}
         className="menu__item"
+        to={ROUTES.PROJECTS_SECTION}
+        onClick={() => setOpen(!open)}
       >
         Projects.
       </Link>
-      <Link to="/#skills" onClick={() => setOpen(!open)} className="menu__item">
+      <Link
+        className="menu__item"
+        to={ROUTES.SKILLS_SECTION}
+        onClick={() => setOpen(!open)}
+      >
         Skills.
       </Link>
       <Link
-        to="/#contact"
-        onClick={() => setOpen(!open)}
         className="menu__item"
+        to={ROUTES.CONTACT_SECTION}
+        onClick={() => setOpen(!open)}
       >
         Contact.
       </Link>

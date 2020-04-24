@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import * as ROUTES from "../constants/routes";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "../pages/home";
@@ -12,22 +13,30 @@ const Header = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
-        <div className="header">
+        <header className="header">
           <h2 className="header__logo">KKZ</h2>
 
           <div className="header__navigation" ref={node}>
             <Burger open={open} setOpen={setOpen} />
             <Menu open={open} setOpen={setOpen} />
           </div>
-        </div>
+        </header>
 
-        <div className={"main" + (open ? " opened" : " closed")}>
+        <main className={"container" + (open ? " opened" : " closed")}>
           <Switch>
-            <Route exact path={["/", "#projects", "#skills", "#contact"]}>
+            <Route
+              exact
+              path={[
+                ROUTES.HOME,
+                ROUTES.PROJECTS_SECTION,
+                ROUTES.SKILLS_SECTION,
+                ROUTES.CONTACT_SECTION,
+              ]}
+            >
               <Home />
             </Route>
           </Switch>
-        </div>
+        </main>
       </BrowserRouter>
     </React.Fragment>
   );
