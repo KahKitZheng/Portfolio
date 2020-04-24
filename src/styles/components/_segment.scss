@@ -1,0 +1,56 @@
+.segment {
+  margin-bottom: 0.5rem;
+  overflow-x: hidden;
+
+  &__background {
+    font-size: 5.4rem;
+    margin-left: -1.5rem;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #212932;
+  }
+
+  &__title {
+    color: $title-color;
+    font-size: 2.5rem;
+    // margin-top: -55px;
+    // margin-bottom: 0;
+    margin: -55px 1.5rem 0;
+    position: absolute;
+    z-index: 5;
+  }
+
+  &__background,
+  &__title {
+    font-family: Righteous;
+  }
+}
+
+// .segment__title {
+// margin: 0 1.5em;
+// }
+
+// @media (min-width: $md) {
+//   .segment__title {
+//     margin: 0 6rem;
+//   }
+// }
+
+// @media (min-width: $lg) {
+//   .segment__title {
+//     margin: 0 16vw;
+//   }
+// }
+
+// @media (min-width: $xl) {
+//   .segment__title {
+//     margin: 0 20vw;
+//   }
+// }
+
+// @media (min-width: $xxl) {
+//   .segment__title {
+//     margin: 0 16vw;
+//   }
+// }

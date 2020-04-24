@@ -1,18 +1,25 @@
 import React from "react";
+import folderIcon from "../folder.svg";
 
 const card = () => {
   return (
-    <div>
-      <span>icon</span>
-      <h3>Project title</h3>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia illum,
-        sint maiores similique nihil impedit? Similique numquam molestias
-        praesentium, laborum voluptatem, quaerat delectus veritatis ullam iste
-        culpa voluptas, eveniet accusantium.
+    <div className="card">
+      <img src={folderIcon} className="card__icon" alt="" />
+      <h3 className="card__title">Project title</h3>
+      <p className="card__description">
+        Lacus, cras condimentum ornare volutpat ultricies. Mollis erat faucibus
+        facilisis gravida nibh sit sapien est. Proin integer commodo sit
+        malesuada aenean pellentesque ante aenean posuere.
       </p>
-      <span>Maiores</span>
-      <span>Reprehenderit</span>
+
+      <div className="card__tags">
+        <p className="card__tag">React</p>
+        <p className="card__tag">Vue</p>
+        <p className="card__tag">Angular</p>
+        <p className="card__tag">Kotlin</p>
+        <p className="card__tag">Java</p>
+        <p className="card__tag">React Native</p>
+      </div>
     </div>
   );
 };

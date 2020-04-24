@@ -15,7 +15,7 @@
   }
 }
 
-.container {
+.main {
   &.opened {
     height: 100%;
     overflow: auto;
@@ -31,13 +31,13 @@
 
 @media (min-width: $lg) {
   .header {
-    padding: 2.5rem 5rem;
+    padding: 2.5rem 5rem 1.5rem;
   }
 }
 
 @media (min-width: $xl) {
   .header {
     margin: auto;
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 10rem 1.5rem;
   }
 }

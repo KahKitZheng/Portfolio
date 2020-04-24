@@ -22,7 +22,7 @@ const Header = () => {
           </div>
         </header>
 
-        <main className={"container" + (open ? " opened" : " closed")}>
+        <main className={"main" + (open ? " opened" : " closed")}>
           <Switch>
             <Route
               exact

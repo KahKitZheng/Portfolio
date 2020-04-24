@@ -2,19 +2,10 @@ html,
 body {
   background-color: $background-color;
   font-family: $font-family;
-  font-display: swap;
   font-size: $font-size;
   color: $text-color;
   height: 100%;
   margin: 0;
-}
-
-#root,
-.App {
-  max-width: 1900px;
-  margin: auto;
-  height: 100%;
-  width: 100%;
 }
 
 .container {

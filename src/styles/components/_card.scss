@@ -1,0 +1,54 @@
+.card {
+  background-color: $background-card-color;
+  border-radius: 6px;
+  padding: 14px;
+
+  &__icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  &__title {
+    font-family: Righteous;
+    font-size: 28px;
+  }
+
+  &__description {
+    font-weight: 500;
+    height: 10rem;
+    max-height: 10rem;
+  }
+
+  &__tags {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__tag {
+    display: inline-block;
+    font-family: "Fira Code";
+    font-size: 14px;
+    margin: 0 14px 0 0;
+  }
+
+  &__icon,
+  &__title {
+    color: $title-color;
+  }
+}
+
+@media (min-width: $lg) {
+  .card__description {
+    height: 8rem;
+    max-height: 8rem;
+  }
+}
+
+@media (min-width: $xl) {
+  .card__description {
+    height: 10rem;
+    max-height: 10rem;
+  }
+}

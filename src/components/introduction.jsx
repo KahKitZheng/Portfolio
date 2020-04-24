@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const introduction = () => {
   return (
-    <section className="intro">
+    <section className="intro container">
       <p className="intro__text">Hi, my name is</p>
       <h1 className="intro__title">Kah Kit Zheng</h1>
       <h2 className="intro__undertitle">I build things for the web.</h2>
