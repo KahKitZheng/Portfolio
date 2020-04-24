@@ -18,7 +18,7 @@ const card = () => {
         <p className="card__tag">Angular</p>
         <p className="card__tag">Kotlin</p>
         <p className="card__tag">Java</p>
-        <p className="card__tag">React Native</p>
+        <p className="card__tag">React-Native</p>
       </div>
     </div>
   );
