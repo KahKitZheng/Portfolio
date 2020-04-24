@@ -3,7 +3,7 @@ import Header from "./header";
 
 const App = () => {
   return (
-    <div className="App" id="outer-container">
+    <div className="App">
       <Header />
     </div>
   );

@@ -1,0 +1,71 @@
+.intro {
+  height: 85vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__text {
+    font-family: "Fira Code";
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 0.25rem;
+    background: -webkit-linear-gradient(#fff, #00c6ba);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__title {
+    color: $title-color;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__undertitle {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 54px;
+    margin: 0.5rem 0 0;
+    background: -webkit-linear-gradient(left, #7cf0e9, #00c6ba);
+    background: -o-linear-gradient(right, #7cf0e9, #00c6ba);
+    background: -moz-linear-gradient(right, #7cf0e9, #00c6ba);
+    background: linear-gradient(to right, #7cf0e9, #00c6ba);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__description {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: $md) {
+  .intro__description {
+    font-size: 22px;
+    max-width: 85%;
+  }
+}
+
+@media (min-width: $lg) {
+  .intro {
+    &__text {
+      font-size: 18px;
+    }
+
+    &__title {
+      font-size: 48px;
+    }
+
+    &__undertitle {
+      font-size: 62px;
+      line-height: 77px;
+    }
+
+    &__description {
+      max-width: 65%;
+    }
+  }
+}

@@ -1,11 +1,10 @@
 import React from "react";
+import Introduction from "../components/introduction";
 
 const home = () => {
   return (
     <div id="home">
-      <div id="projects">Projects</div>
-      <div id="skills">skills</div>
-      <div id="contact">contact</div>
+      <Introduction />
     </div>
   );
 };
