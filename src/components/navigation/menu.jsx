@@ -9,21 +9,21 @@ const Menu = ({ open, setOpen }) => {
       <Link
         className="menu__item"
         to={ROUTES.PROJECTS_SECTION}
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpen(false)}
       >
         Projects.
       </Link>
       <Link
         className="menu__item"
         to={ROUTES.SKILLS_SECTION}
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpen(false)}
       >
         Skills.
       </Link>
       <Link
         className="menu__item"
         to={ROUTES.CONTACT_SECTION}
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpen(false)}
       >
         Contact.
       </Link>
