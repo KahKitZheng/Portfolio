@@ -24,19 +24,20 @@
 
 @media (min-width: $md) {
   .header {
-    padding: 1.5rem 3rem;
+    padding: 2rem 3rem;
+    box-shadow: none;
   }
 }
 
 @media (min-width: $lg) {
   .header {
-    padding: 3rem 5rem;
+    padding: 2.5rem 5rem;
   }
 }
 
 @media (min-width: $xl) {
   .header {
-    padding: 3rem 10rem;
+    padding: 2.5rem 10rem;
     max-width: 1200px;
     margin: auto;
   }
