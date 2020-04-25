@@ -7,10 +7,8 @@
 @import "./components/burger";
 @import "./components/menu";
 @import "./components/header";
-
-@import "./components/introduction";
-@import "./components/project";
 @import "./components/segment";
 @import "./components/card";
-@import "./components/skill";
-@import "./components/contact";
+
+// Pages
+@import "./pages/home/home";

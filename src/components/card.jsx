@@ -9,7 +9,12 @@ const card = (props) => {
       <div className="card__icons">
         <h3 className="card__title">{title ? title : "T.B.D."}</h3>
         {link ? (
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View this project on Github"
+          >
             <GithubIcon />
           </a>
         ) : null}
@@ -20,9 +25,17 @@ const card = (props) => {
 
       <div className="card__tags">
         {tags.length > 0 ? (
-          tags.map((tag) => <p className="card__tag">{tag}</p>)
+          tags.map((tag) => (
+            <p className="card__tag" key={tag}>
+              {tag}
+            </p>
+          ))
         ) : (
-          <p className="card__tag">😎</p>
+          <p className="card__tag">
+            <span role="img" aria-label="Sunglasses">
+              😎
+            </span>
+          </p>
         )}
       </div>
     </div>

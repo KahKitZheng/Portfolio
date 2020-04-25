@@ -1,5 +1,5 @@
 import React from "react";
-import * as ROUTES from "../constants/routes";
+import * as ROUTES from "../../constants/routes";
 import { HashLink as Link } from "react-router-hash-link";
 
 const introduction = () => {

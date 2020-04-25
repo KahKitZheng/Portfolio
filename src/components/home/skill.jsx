@@ -1,6 +1,6 @@
 import React from "react";
-import Segment from "./segment";
-import list from "../constants/skills.json";
+import Segment from "../segment";
+import list from "../../constants/skills.json";
 
 const skills = () => {
   return (
@@ -8,10 +8,12 @@ const skills = () => {
       <Segment name={"skills"}>
         <div className="skills container">
           {list.map((skill) => (
-            <div>
+            <div key={skill.type}>
               <p className="skills__type">{skill.type}</p>
-              {skill.list.map((item) => (
-                <p className="skills__tag">{item}</p>
+              {skill.list.map((item, index) => (
+                <p className="skills__tag" key={index}>
+                  {item}
+                </p>
               ))}
             </div>
           ))}

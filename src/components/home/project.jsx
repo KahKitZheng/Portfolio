@@ -1,7 +1,7 @@
 import React from "react";
-import Segment from "./segment";
-import Card from "./card";
-import list from "../constants/projects.json";
+import Segment from "../segment";
+import Card from "../card";
+import list from "../../constants/projects.json";
 
 const projects = () => {
   return (
@@ -9,7 +9,7 @@ const projects = () => {
       <Segment name={"Projects"}>
         <div className="card__list container">
           {list.map((project) => (
-            <Card project={project} />
+            <Card project={project} key={project.title} />
           ))}
         </div>
       </Segment>

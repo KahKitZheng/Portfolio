@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import * as ROUTES from "../constants/routes";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Home from "../pages/home";
+import Home from "./home";
 import { Burger, Menu, useOnClickOutside } from "./navigation";
 
 const Header = () => {
