@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Web Development",
+    "list": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "type": "Tools",
+    "list": ["Git", "VS Code", "Trello", "Scrum", "Agile"]
+  },
+  {
+    "type": "Frontend Frameworks",
+    "list": ["React", "Vue", "Sass", "ES6+"]
+  },
+  {
+    "type": "Platform",
+    "list": ["Linux", "Windows"]
+  },
+  {
+    "type": "Backend Development",
+    "list": ["Node", "Express", "Java", "MySQL"]
+  },
+  {
+    "type": "Design",
+    "list": ["Figma", "Adobe XD"]
+  }
+]
