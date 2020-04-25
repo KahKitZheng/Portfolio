@@ -13,6 +13,13 @@
   &__logo {
     color: white;
     margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: $highlight-color;
+    }
   }
 }
 

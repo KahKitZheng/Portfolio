@@ -7,6 +7,7 @@ const Menu = ({ open, setOpen }) => {
   return (
     <div className={"menu" + (open ? " open" : "")} open={open}>
       <Link
+        smooth
         className="menu__item"
         to={ROUTES.PROJECTS_SECTION}
         onClick={() => setOpen(false)}
@@ -14,6 +15,7 @@ const Menu = ({ open, setOpen }) => {
         Projects.
       </Link>
       <Link
+        smooth
         className="menu__item"
         to={ROUTES.SKILLS_SECTION}
         onClick={() => setOpen(false)}
@@ -21,6 +23,7 @@ const Menu = ({ open, setOpen }) => {
         Skills.
       </Link>
       <Link
+        smooth
         className="menu__item"
         to={ROUTES.CONTACT_SECTION}
         onClick={() => setOpen(false)}

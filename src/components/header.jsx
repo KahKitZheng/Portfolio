@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import * as ROUTES from "../constants/routes";
+import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./home";
@@ -14,7 +15,9 @@ const Header = () => {
     <React.Fragment>
       <BrowserRouter>
         <header className="header">
-          <h2 className="header__logo">KKZ</h2>
+          <Link smooth className="header__logo" to={ROUTES.HOME}>
+            KKZ
+          </Link>
 
           <div className="header__navigation" ref={node}>
             <Burger open={open} setOpen={setOpen} />
@@ -27,6 +30,7 @@ const Header = () => {
             <Route
               exact
               path={[
+                ROUTES.START,
                 ROUTES.HOME,
                 ROUTES.PROJECTS_SECTION,
                 ROUTES.SKILLS_SECTION,

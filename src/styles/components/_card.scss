@@ -44,14 +44,14 @@
 
 @media (min-width: $lg) {
   .card__description {
-    height: 8rem;
-    max-height: 8rem;
+    height: 10rem;
+    max-height: 12rem;
   }
 }
 
 @media (min-width: $xl) {
   .card__description {
-    height: 10rem;
-    max-height: 10rem;
+    height: 12rem;
+    max-height: 14rem;
   }
 }
