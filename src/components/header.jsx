@@ -8,6 +8,7 @@ import { Burger, Menu, useOnClickOutside } from "./navigation";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const menuId = "main-menu";
   const node = useRef();
   useOnClickOutside(node, () => setOpen(false));
 
@@ -20,8 +21,8 @@ const Header = () => {
           </Link>
 
           <div className="header__navigation" ref={node}>
-            <Burger open={open} setOpen={setOpen} />
-            <Menu open={open} setOpen={setOpen} />
+            <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+            <Menu open={open} setOpen={setOpen} id={menuId} />
           </div>
         </header>
 
