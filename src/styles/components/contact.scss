@@ -1,0 +1,103 @@
+#contact {
+  height: auto;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  position: relative;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto auto;
+  grid-auto-flow: row;
+  margin-top: 4rem;
+
+  &__message {
+    font-family: "Fira Code";
+    font-size: 24px;
+    grid-row: 1;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  &__email {
+    grid-row: 2;
+  }
+
+  &__github {
+    grid-row: 3;
+  }
+
+  &__email,
+  &__github {
+    color: $title-color;
+    font-family: Righteous;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  &__link {
+    color: $highlight-color;
+    display: block;
+    text-decoration: none;
+    margin-top: 0.25rem;
+  }
+}
+
+@media (min-width: $md) {
+  .contact {
+    margin-bottom: 10rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    &__message {
+      grid-column: 1 / 3;
+      line-height: 32px;
+      margin: 0;
+    }
+
+    &__email {
+      grid-row: 2;
+    }
+
+    &__github {
+      grid-row: 2;
+    }
+  }
+}
+
+@media (min-width: $lg) {
+  .contact {
+    margin-top: 8rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 4rem;
+
+    &__message {
+      grid-column: 1;
+      grid-row: 1 / 3;
+      font-family: "Fira Code";
+      font-size: 24px;
+      line-height: 32px;
+      margin: 0;
+    }
+
+    &__email {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    &__github {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    &__email,
+    &__github {
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}

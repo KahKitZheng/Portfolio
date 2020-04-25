@@ -23,6 +23,10 @@
     color: $title-color;
     font-size: 40px;
     margin: -85px 1.5rem 10px;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
   }
 
   &__background,

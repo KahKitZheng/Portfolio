@@ -9,29 +9,29 @@ body {
 }
 
 .container {
-  margin: 0 1.5em;
+  margin: auto 1.5em;
 }
 
 @media (min-width: $md) {
   .container {
-    margin: 0 6rem;
+    margin: auto 6rem;
   }
 }
 
 @media (min-width: $lg) {
   .container {
-    margin: 0 16vw;
+    margin: auto 16vw;
   }
 }
 
 @media (min-width: $xl) {
   .container {
-    margin: 0 20vw;
+    margin: auto 20vw;
   }
 }
 
 @media (min-width: $xxl) {
   .container {
-    margin: 0 16vw;
+    margin: auto 16vw;
   }
 }
