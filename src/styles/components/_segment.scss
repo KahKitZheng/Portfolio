@@ -10,6 +10,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #212932;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
     z-index: -5;
   }
 
@@ -56,6 +62,6 @@
 
   .segment__title {
     font-size: 72px;
-    margin: -175px 20vw 10px;
+    margin: -200px 20vw 10px;
   }
 }
