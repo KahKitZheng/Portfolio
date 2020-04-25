@@ -13,7 +13,7 @@ const introduction = () => {
         Sciences who specializes in Frontend development and occasionally likes
         to design.
       </p>
-      <Link to={ROUTES.CONTACT_SECTION} className="button">
+      <Link smooth to={ROUTES.CONTACT_SECTION} className="button">
         Get In Touch
       </Link>
     </section>

@@ -1,9 +1,9 @@
 // Base
 @import "./base/variables";
 @import "./base/global";
-@import "./base/button";
 
 // Components
+@import "./components/button";
 @import "./components/burger";
 @import "./components/menu";
 @import "./components/header";

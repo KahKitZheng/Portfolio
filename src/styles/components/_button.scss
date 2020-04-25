@@ -6,6 +6,11 @@
   padding: 12px 18px;
   text-decoration: none;
 
+  &:hover {
+    border: 1px solid $tertiary-color;
+    color: $tertiary-color;
+  }
+
   &:focus {
     outline: none;
   }

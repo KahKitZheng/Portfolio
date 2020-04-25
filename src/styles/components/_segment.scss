@@ -22,7 +22,7 @@
   &__title {
     color: $section-title;
     font-size: 40px;
-    margin: -85px 1.5rem 10px;
+    margin: -55px 1.5rem 10px;
 
     &::first-letter {
       text-transform: capitalize;
@@ -48,14 +48,14 @@
 
   .segment__title {
     font-size: 2.5rem;
-    margin: -110px 6rem 10px;
+    margin: -90px 6rem 10px;
   }
 }
 
 @media (min-width: $lg) {
   .segment__title {
     font-size: 60px;
-    margin: -155px 16vw 10px;
+    margin: -130px 16vw 10px;
   }
 }
 
@@ -66,6 +66,6 @@
 
   .segment__title {
     font-size: 72px;
-    margin: -200px 20vw 10px;
+    margin: -160px 20vw 10px;
   }
 }
