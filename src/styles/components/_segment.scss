@@ -9,7 +9,7 @@
     position: relative;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #212932;
+    -webkit-text-stroke-color: $background-text-stroke;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -20,7 +20,7 @@
   }
 
   &__title {
-    color: $title-color;
+    color: $section-title;
     font-size: 40px;
     margin: -85px 1.5rem 10px;
 

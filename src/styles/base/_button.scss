@@ -1,10 +1,10 @@
 .button {
-  background-color: $background-color;
-  border: 1px solid $highlight-color;
-  color: $highlight-color;
+  background-color: $background;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  max-width: max-content;
   padding: 12px 18px;
   text-decoration: none;
-  max-width: max-content;
 
   &:focus {
     outline: none;

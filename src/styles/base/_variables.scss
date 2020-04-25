@@ -1,17 +1,27 @@
-// Colors
-$background-color: #050e1b;
-$background-card-color: #102135;
+// Background Colors
+$background: #050e1b;
+$background-card: #102135;
 
-$highlight-color: #00c6ba;
+// Text Colors
+$primary-color: #00c6ba;
+$secondary-color: #7cf0e9;
 
 $title-color: #ccd6f6;
 $text-color: #8390b5;
+
+$background-text-stroke: #212932;
+$section-title: #ccd6f6;
+$menu-item: #050e1b;
 
 // Font
 $font-family: "Fira Sans", sans-serif;
 $font-size: 16px;
 $title: 1em;
 $background-title: 1em;
+
+// Scrollbar
+$scrollbar-background: #010407;
+$scrollbar-foreground: #0f2641;
 
 // Break points
 $sm: 640px;

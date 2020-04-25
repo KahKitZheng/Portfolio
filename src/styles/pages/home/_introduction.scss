@@ -10,7 +10,7 @@
     font-size: 18px;
     line-height: 24px;
     margin: 0 0 0.25rem;
-    background: -webkit-linear-gradient(#fff, #00c6ba);
+    background: -webkit-linear-gradient(#fff, $primary-color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -28,10 +28,10 @@
     font-weight: bold;
     line-height: 54px;
     margin: 0.5rem 0 0;
-    background: -webkit-linear-gradient(left, #7cf0e9, #00c6ba);
-    background: -o-linear-gradient(right, #7cf0e9, #00c6ba);
-    background: -moz-linear-gradient(right, #7cf0e9, #00c6ba);
-    background: linear-gradient(to right, #7cf0e9, #00c6ba);
+    background: -webkit-linear-gradient(left, $secondary-color, $primary-color);
+    background: -o-linear-gradient(right, $secondary-color, $primary-color);
+    background: -moz-linear-gradient(right, $secondary-color, $primary-color);
+    background: linear-gradient(to right, $secondary-color, $primary-color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

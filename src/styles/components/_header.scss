@@ -7,7 +7,7 @@
   position: sticky;
   top: 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: $background-color;
+  background-color: $background;
   z-index: 10;
 
   &__logo {
@@ -18,7 +18,7 @@
     font-size: 1.5rem;
 
     &:hover {
-      color: $highlight-color;
+      color: $primary-color;
     }
   }
 }
