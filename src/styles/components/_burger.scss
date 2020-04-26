@@ -31,11 +31,11 @@
     transform-origin: 1px;
 
     &.opened {
-      background-color: #0d0c1d;
+      background-color: $burger-icon-close;
     }
 
     &.closed {
-      background: #effffa;
+      background: $burger-icon-open;
     }
 
     &:first-child.opened {

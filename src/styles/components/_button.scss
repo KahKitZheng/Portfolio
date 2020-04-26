@@ -5,6 +5,7 @@
   max-width: max-content;
   padding: 12px 18px;
   text-decoration: none;
+  transition: color 0.3s linear;
 
   &:hover {
     border: 1px solid $tertiary-color;

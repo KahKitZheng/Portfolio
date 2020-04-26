@@ -16,7 +16,8 @@
   }
 
   &__tag {
-    background-color: $background-card;
+    background-color: $background-pill;
+    color: $pill-text;
     border-radius: 14px;
     display: inline-block;
     margin-top: 0;

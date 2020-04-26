@@ -2,23 +2,33 @@
 $background: #100e17;
 $background-card: #1b1826;
 $background-menu: #ffe8e8;
+$background-pill: #1b1826;
 
 // Text Colors
 $primary-color: #cf7663;
 $secondary-color: #d9325d;
-$tertiary-color: #ec8872;
+$tertiary-color: #f88c74;
 
 $title-color: #fff;
 $subtitle-color: #f2ecff;
 $text-color: #ccd6f6;
 
+$logo: #fff;
+$burger-icon-open: #fff;
+$burger-icon-close: #000;
+$menu-item: #050e1b;
+$menu-item-hover: #fff;
+
 $background-text-stroke: #c5cee91a;
 $section-title: #fff;
-$menu-item: #050e1b;
+$pill-text: #ccd6f6;
 
 // Font
 $font-family: "Fira Sans", sans-serif;
 $font-size: 16px;
+
+// Box shadow
+$card-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 // Scrollbar
 $scrollbar-background: #030305;

@@ -11,11 +11,12 @@
   z-index: 10;
 
   &__logo {
-    color: white;
+    color: $logo;
     margin: 0;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
+    transition: color 0.3s linear;
 
     &:hover {
       color: $primary-color;
