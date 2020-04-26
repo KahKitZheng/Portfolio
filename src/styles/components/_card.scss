@@ -3,7 +3,7 @@
   border-radius: 6px;
   padding: 1rem;
 
-  &__icons {
+  &__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,13 +17,19 @@
     font-size: 28px;
     margin-top: 0;
     margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__icon {
+    margin-left: 0.5rem;
   }
 
   &__description {
-    font-weight: 500;
-    height: 10rem;
+    font-weight: 400;
+    height: 12rem;
     line-height: 24px;
-    max-height: 10rem;
     margin-top: 1.5rem;
   }
 
@@ -32,6 +38,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-top: 1rem;
   }
 
   &__tag {
@@ -44,8 +51,7 @@
 
 @media (min-width: $lg) {
   .card__description {
-    height: 10rem;
-    max-height: 12rem;
+    max-height: 14rem;
   }
 }
 

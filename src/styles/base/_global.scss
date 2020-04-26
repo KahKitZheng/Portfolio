@@ -25,29 +25,31 @@ body {
 }
 
 .container {
-  margin: auto 1.5em;
+  margin: auto 1.5rem;
+  max-width: 1200px;
 }
 
 @media (min-width: $md) {
   .container {
-    margin: auto 6rem;
+    padding: 0 4rem;
   }
 }
 
 @media (min-width: $lg) {
   .container {
-    margin: auto 16vw;
+    padding: 0 6rem;
   }
 }
 
 @media (min-width: $xl) {
   .container {
-    margin: auto 20vw;
+    margin: auto;
+    padding: 0 16rem;
   }
 }
 
 @media (min-width: $xxl) {
   .container {
-    margin: auto 16vw;
+    margin: auto;
   }
 }

@@ -4,6 +4,7 @@
   grid-template-rows: 1fr auto auto;
   grid-auto-flow: row;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
   &__message {
     font-family: "Fira Code";
@@ -63,13 +64,16 @@
 
     &__link {
       font-size: 1.25rem;
+
+      &:hover {
+        color: $tertiary-color;
+      }
     }
   }
 }
 
 @media (min-width: $lg) {
   .contact {
-    margin-top: 8rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 2rem;
@@ -94,12 +98,6 @@
     &__github {
       margin-top: 0;
       margin-bottom: 2rem;
-    }
-
-    &__link {
-      &:hover {
-        color: $tertiary-color;
-      }
     }
   }
 }
