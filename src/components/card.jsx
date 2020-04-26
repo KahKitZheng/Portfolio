@@ -6,7 +6,7 @@ const card = (props) => {
 
   return (
     <div className="card">
-      <div className="card__icons">
+      <div className="card__top">
         <h3 className="card__title">{title ? title : "T.B.D."}</h3>
         {link ? (
           <a
@@ -14,6 +14,7 @@ const card = (props) => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View this project on Github"
+            className="card__icon"
           >
             <GithubIcon />
           </a>

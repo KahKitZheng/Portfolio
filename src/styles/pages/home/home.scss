@@ -7,16 +7,24 @@
 #skills,
 #contact {
   height: auto;
-  min-height: 85vh;
-  margin-bottom: 3rem;
-  padding-top: 2rem;
+  min-height: 80vh;
+  padding-top: 4.5rem;
 }
 
 @media (min-width: $md) {
-  #projects,
+  #projects {
+    padding-top: 8vh;
+  }
+
   #skills,
   #contact {
-    min-height: 80vh;
-    padding-top: 6rem;
+    padding-top: 10vh;
+  }
+}
+
+@media (min-width: $lg) {
+  #skills,
+  #contact {
+    padding-top: 20vh;
   }
 }
