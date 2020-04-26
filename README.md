@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio ver. 1.0
 
-## Available Scripts
+![Horizon theme](src/themes_example/Horizon/Horizon_theme.png)
 
-In the project directory, you can run:
+The first iteration of my personal portfolio. It showcases my favorite projects, the skills I have developed and ways to contact me. 
 
-### `npm start`
+You can find the live version at: https://portfolio.kahkitzheng.now.sh/.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Installing
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repo
 
-### `npm run build`
+```bash
+git clone https://github.com/KahKitZheng/portfolio
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Go to the directory
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+cd portfolio
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the node modules
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Starting the applicaton
+To start the application run the following command:
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application runs at `localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Themes
+The application is customizable. You can do this by loading your own `_variables.scss` file. By default it shows the **Horizon** theme. Or you can choose other themes that already comes with it.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Glacier theme
+Config can be found
+[here](src/themes_example/Glacier/_variables.scss)
+![Glacier theme](src/themes_example/Glacier/Glacier_theme.png)
 
-## Learn More
+### Ivory theme
+Config can be found
+[here](src/themes_example/Ivory/_variables.scss)
+![Ivory theme](src/themes_example/Ivory/Ivory_theme.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+* [Sass](https://sass-lang.com/) - CSS with superpowers.
+* [Create React App](https://reacttraining.com/react-router/web/guides/quick-start) - Set up a React app by running one command.
+* [Vercel](https://vercel.com/) - Easy deployment process for frontend applications (formerly known as ZEIT).
