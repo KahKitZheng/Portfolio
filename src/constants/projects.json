@@ -1,21 +1,15 @@
 [
   {
     "title": "Portfolio ver. 1.0",
-    "description": "The first iteration of my portfolio. Created with React and Sass, hosted by ZEIT",
+    "description": "The first iteration of my portfolio. Created with React and Sass, hosted by Vercel.",
     "link": "https://github.com/KahKitZheng/portfolio",
     "tags": ["React", "Sass"]
   },
   {
     "title": "Spotify React",
-    "description": "Practicing my React skills by creating a Spotify web clone. Just like the web player it provides features such as playing and finding music. It also includes new features like displaying your recent top tracks and artist.",
+    "description": "Trying Styled Components out. What better way to do it than creating a clone of my favorite music service.",
     "link": "https://github.com/KahKitZheng/spotify-react",
-    "tags": ["React", "Express", "Sass", "Spotify-API"]
-  },
-  {
-    "title": "Amiibo Collector",
-    "description": "Keep track of your collection with the Amiibo Collector. Created with React, Redux, Firebase and Typescript.",
-    "link": "https://github.com/KahKitZheng/amiibo-collector",
-    "tags": ["React", "Redux", "Firebase", "Typescript"]
+    "tags": ["React", "Styled-Components", "Spotify-API", "Express"]
   },
   {
     "title": "",

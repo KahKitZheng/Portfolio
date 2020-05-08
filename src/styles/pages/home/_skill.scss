@@ -17,9 +17,10 @@
 
   &__tag {
     background-color: $background-pill;
-    color: $pill-text;
     border-radius: 14px;
+    color: $pill-text;
     display: inline-block;
+    font-family: "Fira Code";
     margin-top: 0;
     margin-bottom: 1rem;
     margin-right: 14px;
