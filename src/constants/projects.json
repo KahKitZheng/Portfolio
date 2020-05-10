@@ -3,12 +3,12 @@
     "title": "Portfolio ver. 1.0",
     "description": "The first iteration of my portfolio. Created with React and Sass, hosted by Vercel.",
     "link": "https://github.com/KahKitZheng/portfolio",
-    "tags": ["React", "Sass"]
+    "tags": ["React", "Sass", "Vercel"]
   },
   {
     "title": "Spotify React",
     "description": "Trying Styled Components out. What better way to do it than creating a clone of my favorite music service.",
-    "link": "https://github.com/KahKitZheng/spotify-react",
+    "link": "https://github.com/KahKitZheng/spotify-clone",
     "tags": ["React", "Styled-Components", "Spotify-API", "Express"]
   },
   {

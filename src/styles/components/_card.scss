@@ -36,8 +36,9 @@
 
   &__tags {
     margin: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    display: flex;
+    flex-wrap: wrap;
+
     white-space: nowrap;
     margin-top: 1rem;
   }
@@ -46,7 +47,8 @@
     display: inline-block;
     font-family: "Fira Code";
     font-size: 14px;
-    margin: 0 14px 0 0;
+    margin: 4px 16px 4px 0;
+    color: #878fa7;
   }
 }
 
