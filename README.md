@@ -38,17 +38,14 @@ npm start
 The application runs at `localhost:3000`
 
 ## Themes
-The application is customizable. You can do this by loading your own `_variables.scss` file. By default it shows the **Horizon** theme. Or you can choose other themes that already comes with it.
+If you don't like the current theme, you can overwrite `_variables.scss`  to create your own theme. By default it shows the **Horizon** theme, however you can also choose a predefined one in the `themes_example` folder. For more themes visit my Figma file [here](https://www.figma.com/file/3Ujw5Pk3Yzb6oNPKWNA739/KKZ-Portfolio-Ver.-1.0?node-id=4%3A2).
+
+
 
 ### Glacier theme
 Config can be found
 [here](src/themes_example/Glacier/_variables.scss)
 ![Glacier theme](src/themes_example/Glacier/Glacier_theme.png)
-
-### Ivory theme
-Config can be found
-[here](src/themes_example/Ivory/_variables.scss)
-![Ivory theme](src/themes_example/Ivory/Ivory_theme.png)
 
 ## Built With
 
