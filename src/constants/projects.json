@@ -12,6 +12,12 @@
     "tags": ["React", "Styled-Components", "Spotify-API", "Express"]
   },
   {
+    "title": "PSC",
+    "description": "A mini IoT weather station created with a NodeMCU, DHT11 sensor and LiquidCrystal (16x2) LCD display.",
+    "link": "https://github.com/kahkitzheng/psc",
+    "tags": ["Arduino", "IoT"]
+  },
+  {
     "title": "",
     "description": "",
     "link": "",

@@ -35,12 +35,10 @@
   }
 
   &__tags {
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
-
     white-space: nowrap;
-    margin-top: 1rem;
+    margin: 1rem 0 0 0;
   }
 
   &__tag {
