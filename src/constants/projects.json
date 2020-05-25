@@ -1,26 +1,30 @@
 [
   {
-    "title": "Portfolio ver. 1.0",
-    "description": "The first iteration of my portfolio. Created with React and Sass, hosted by Vercel.",
-    "link": "https://github.com/KahKitZheng/portfolio",
-    "tags": ["React", "Sass", "Vercel"]
-  },
-  {
     "title": "Spotify React",
     "description": "Trying Styled Components out. What better way to do it than creating a clone of my favorite music service.",
-    "link": "https://github.com/KahKitZheng/spotify-clone",
+    "git": "https://github.com/KahKitZheng/spotify-clone",
+    "demo": "https://spotify-react-clone.now.sh/",
     "tags": ["React", "Styled-Components", "Spotify-API", "Express"]
+  },
+  {
+    "title": "Portfolio ver. 1.0",
+    "description": "The first iteration of my portfolio. Created with React and Sass, hosted by Vercel.",
+    "demo": "",
+    "git": "https://github.com/KahKitZheng/portfolio",
+    "tags": ["React", "Sass", "Vercel"]
   },
   {
     "title": "PSC",
     "description": "A mini IoT weather station created with a NodeMCU, DHT11 sensor and LiquidCrystal (16x2) LCD display.",
-    "link": "https://github.com/kahkitzheng/psc",
+    "demo": "",
+    "git": "https://github.com/kahkitzheng/psc",
     "tags": ["Arduino", "IoT"]
   },
   {
     "title": "",
     "description": "",
-    "link": "",
+    "demo": "",
+    "git": "",
     "tags": []
   }
 ]

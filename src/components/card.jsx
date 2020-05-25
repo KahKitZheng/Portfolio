@@ -2,15 +2,23 @@ import React from "react";
 import GithubIcon from "./githubIcon";
 
 const card = (props) => {
-  const { title, description, link, tags } = props.project;
+  const { title, description, demo, git, tags } = props.project;
 
   return (
     <div className="card">
       <div className="card__top">
-        <h3 className="card__title">{title ? title : "T.B.D."}</h3>
-        {link ? (
+        <a
+          href={demo === "" ? null : demo}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View this project live"
+          className={demo === "" ? "card__title" : "card__title--link"}
+        >
+          {title ? title : "T.B.D."}
+        </a>
+        {git ? (
           <a
-            href={link}
+            href={git}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View this project on Github"

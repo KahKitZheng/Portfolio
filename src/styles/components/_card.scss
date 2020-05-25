@@ -19,8 +19,27 @@
     margin-top: 0;
     margin-bottom: 0;
     overflow: hidden;
+    text-decoration: none;
     text-overflow: ellipsis;
     white-space: nowrap;
+
+    &--link {
+      color: $subtitle-color;
+      font-family: Righteous;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        background: -webkit-linear-gradient(left, $secondary-color, $primary-color);
+        background: -o-linear-gradient(right, $secondary-color, $primary-color);
+        background: -moz-linear-gradient(right, $secondary-color, $primary-color);
+        background: linear-gradient(to right, $secondary-color, $primary-color);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.1s linear;
+      }
+    }
   }
 
   &__icon {
