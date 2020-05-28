@@ -1,5 +1,5 @@
 import React from "react";
-import GithubIcon from "./githubIcon";
+import GithubIcon from "./GithubIcon";
 
 const card = (props) => {
   const { title, description, demo, git, tags } = props.project;

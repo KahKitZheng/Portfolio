@@ -1,25 +1,31 @@
 [
   {
+    "id": "Web",
     "type": "Web Development",
     "list": ["HTML", "CSS", "JavaScript"]
   },
   {
-    "type": "Tools",
-    "list": ["Git", "VS Code", "Trello", "Scrum", "Agile"]
-  },
-  {
+    "id": "Frontend",
     "type": "Frontend Development",
     "list": ["React", "Vue", "Sass", "ES6+"]
   },
   {
-    "type": "Platform",
-    "list": ["Linux", "Windows"]
-  },
-  {
+    "id": "Backend",
     "type": "Backend Development",
     "list": ["Node", "Express", "Java", "MySQL"]
   },
   {
+    "id": "Tools",
+    "type": "Tools",
+    "list": ["Git", "VS Code", "Trello", "Scrum", "Agile"]
+  },
+  {
+    "id": "Platform",
+    "type": "Platform",
+    "list": ["Linux", "Windows"]
+  },
+  {
+    "id": "Design",
     "type": "Design",
     "list": ["Figma", "Adobe XD"]
   }

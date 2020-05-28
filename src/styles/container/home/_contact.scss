@@ -9,7 +9,7 @@
   &__message {
     font-family: "Fira Code";
     font-size: 18px;
-    grid-row: 1;
+    // grid-row: 1;
     line-height: 32px;
     margin: 0;
     text-align: justify;
@@ -23,8 +23,13 @@
     grid-row: 3;
   }
 
+  &__resume {
+    grid-row: 4;
+  }
+
   &__email,
-  &__github {
+  &__github,
+  &__resume {
     font-family: Righteous;
     margin-top: 2.5rem;
     margin-bottom: 0;
@@ -93,6 +98,11 @@
     &__github {
       grid-column: 2;
       grid-row: 2;
+    }
+
+    &__resume {
+      grid-column: 2;
+      margin: 0;
     }
 
     &__email,

@@ -1,8 +1,8 @@
 import React from "react";
-import Introduction from "./introduction";
-import Projects from "./project";
-import Skills from "./skill";
-import Contact from "./contact";
+import Introduction from "./Introduction";
+import Projects from "./Project";
+import Skills from "./Skill";
+import Contact from "./Contact";
 
 const home = () => {
   return (

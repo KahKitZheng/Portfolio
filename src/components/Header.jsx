@@ -3,7 +3,7 @@ import * as ROUTES from "../constants/routes";
 import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Home from "./home";
+import Home from "../container/Home";
 import { Burger, Menu, useOnClickOutside } from "./navigation";
 
 const Header = () => {

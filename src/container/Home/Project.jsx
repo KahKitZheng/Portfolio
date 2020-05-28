@@ -1,14 +1,14 @@
 import React from "react";
-import Segment from "../segment";
-import Card from "../card";
-import list from "../../constants/projects.json";
+import Segment from "../../components/Segment";
+import Card from "../../components/Card";
+import PROJECT_LIST from "../../constants/projects.json";
 
 const projects = () => {
   return (
     <section id="projects">
       <Segment name={"Projects"}>
         <div className="card__list container">
-          {list.map((project) => (
+          {PROJECT_LIST.map((project) => (
             <Card project={project} key={project.title} />
           ))}
         </div>

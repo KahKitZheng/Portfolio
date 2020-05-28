@@ -32,5 +32,28 @@
 @media (min-width: $md) {
   .skills {
     grid-template-columns: repeat(2, minmax(1rem, 1fr));
+    grid-template:
+      "Web Platform"
+      "Frontend Tools"
+      "Backend Design";
+  }
+
+  #Web {
+    grid-area: Web;
+  }
+  #Frontend {
+    grid-area: Frontend;
+  }
+  #Backend {
+    grid-area: Backend;
+  }
+  #Tools {
+    grid-area: Tools;
+  }
+  #Platform {
+    grid-area: Platform;
+  }
+  #Design {
+    grid-area: Design;
   }
 }

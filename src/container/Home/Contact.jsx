@@ -1,5 +1,5 @@
 import React from "react";
-import Segment from "../segment";
+import Segment from "../../components/Segment";
 
 const contact = () => {
   return (
@@ -27,6 +27,15 @@ const contact = () => {
               Github.com/KahKitZheng
             </a>
           </div>
+          <a
+            download
+            href={"/CV-KahKitZheng.pdf"}
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="contact__resume button"
+          >
+            Resume
+          </a>
         </div>
       </Segment>
     </section>
