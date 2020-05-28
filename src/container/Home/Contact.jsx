@@ -28,7 +28,6 @@ const contact = () => {
             </a>
           </div>
           <a
-            download
             href={"/CV-KahKitZheng.pdf"}
             target="_blank"
             rel="nofollow noopener noreferrer"
