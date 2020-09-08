@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "./Header";
+import theme from "../styles/theme";
+import { ThemeProvider } from "styled-components";
+import Navigation from "./Navigation";
 
-const App = () => {
-  return (
+const App = () => (
+  <ThemeProvider theme={theme}>
     <div className="App">
-      <Header />
+      <Navigation />
     </div>
-  );
-};
+  </ThemeProvider>
+);
 
 export default App;
